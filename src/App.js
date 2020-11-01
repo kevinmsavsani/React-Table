@@ -8,7 +8,7 @@ import SortingTableComponent from './components/sortTable';
 import SelfTable from './components/selfTable';
 import CombinedTableComponent from './components/pgstTable';
 import CombinedCssTableComponent from './components/pgstcss';
-import CombinedCssFilterTableComponent from './components/pgstcssfilter';
+import UsersList from './complete/js/UsersList';
 function App() {
 
   return (
@@ -36,7 +36,7 @@ function App() {
 
       <h3>Combined Features Table using <code>react-table</code></h3>
 
-      <CombinedCssFilterTableComponent />
+      <UsersList />
     </div>
   );
 }

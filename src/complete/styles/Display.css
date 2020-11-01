@@ -1,0 +1,29 @@
+.headerDropdown {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerDropdown .dropDown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 50px;
+    align-content: center;
+    margin-left: 30px;
+  }
+
+  .headerDropdown .dropDown text {
+    font-size: xx-small;
+    font-weight: bolder;
+  }
+
+  .headerDropdown .dropDown select {
+    font-size: small;
+    height: 25px;
+    width:  200px;
+    text-align: center;
+    text-align-last: center;
+  }
