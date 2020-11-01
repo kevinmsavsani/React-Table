@@ -1,0 +1,64 @@
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.table {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.table td,
+.table th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #c8c9cc;
+}
+
+.pagination {
+  position: relative;
+  left: 30%;
+  display: inline-block;
+}
+
+.pagination a {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid rgb(100, 98, 255);
+  margin: 0 5px;
+  text-align: center;
+}
+
+.pagination a.page-change {
+    color: white;
+    background-color: #0000CD;
+  }
+  .pagination a.active {
+    color: white;
+    background-color: rgb(54, 52, 196);
+  }
+  
+.pagination a.page-links:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a.page-change:hover {
+    background-color: rgb(100, 98, 255);
+  }

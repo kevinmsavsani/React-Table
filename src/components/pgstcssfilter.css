@@ -1,0 +1,104 @@
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.table {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.table td,
+.table th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  font-size: smaller;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #c8c9cc;
+}
+
+.pagination {
+  position: relative;
+  left: 30%;
+  display: inline-block;
+}
+
+.pagination a {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  color: black;
+  float: left;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #1975FF;
+  margin: 0 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.pagination a.page-change {
+    color: white;
+    background-color: #1975FF;
+    ;
+  }
+
+  .pagination a.disabled {
+    color: white;
+    background-color: #6ca5fa;
+    ;
+  }
+  .pagination a.active {
+    color: white;
+    background-color: #1975FF;
+    ;
+  }
+  
+.pagination a.page-links:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a.page-change:hover {
+    background-color:  #4d94ff;    ;
+  }
+
+  .headerDropdown {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headerDropdown .dropDown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 50px;
+    align-content: center;
+    margin-left: 30px;
+  }
+
+  .headerDropdown .dropDown text {
+    font-size: xx-small;
+    font-weight: bolder;
+  }
+
+  .headerDropdown .dropDown select {
+    font-size: small;
+    height: 25px;
+    width:  200px;
+    text-align: center;
+    text-align-last: center;
+  }
